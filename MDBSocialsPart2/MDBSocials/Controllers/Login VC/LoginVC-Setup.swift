@@ -19,10 +19,9 @@ extension LoginViewController : UITextFieldDelegate
         self.view.addSubview(loginLabel)
     }
 
-    func displayUsernameField()
-    {
+    func displayUsernameField() {
         usernameTextField = UITextField(frame: CGRect(x: view.frame.width / 8, y: 4 * view.frame.height / 10, width: 6 * view.frame.width / 8, height: 40))
-        usernameTextField.placeholder = "Username"
+        usernameTextField.placeholder = "Email"
         let spacerView1 = UIView(frame:CGRect(x:0, y:0, width:10, height:10))
         usernameTextField.leftViewMode = UITextFieldViewMode.always
         usernameTextField.leftView = spacerView1
@@ -30,9 +29,7 @@ extension LoginViewController : UITextFieldDelegate
         view.addSubview(usernameTextField)
     }
     
-    func displayPasswordField()
-    {
-        
+    func displayPasswordField() {
         passwordTextField = UITextField(frame: CGRect(x: view.frame.width / 8, y: 5 * view.frame.height / 10, width: 6 * view.frame.width / 8, height: 40))
         passwordTextField.placeholder = "Password"
         passwordTextField.isSecureTextEntry = true
@@ -43,8 +40,7 @@ extension LoginViewController : UITextFieldDelegate
         view.addSubview(passwordTextField)
     }
 
-    func displayLoginButton()
-    {
+    func displayLoginButton() {
         loginButton = RoundedWhiteButton(frame: CGRect(x: view.center.x / 2, y: 7.75 * view.frame.height / 10, width: 200, height: 50))
         loginButton.setTitleColor(secondaryColor, for: .normal)
         loginButton.setTitle("Log In", for: .normal)
@@ -57,20 +53,7 @@ extension LoginViewController : UITextFieldDelegate
         setLoginButton(enabled: false)
     }
     
-//    logoutButton = UIButton(frame: CGRect(x: 0, y: view.frame.height / 10, width: view.frame.width, height: 50))
-//    logoutButton.setTitle("LOG OUT", for: .normal)
-//    logoutButton.backgroundColor = .red
-//    logoutButton.addTarget(self, action: #selector(logoutButtonClicked), for: .touchUpInside)
-//    view.addSubview(logoutButton)
-    
-//    mdbImageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 175, height: 175))
-//    mdbImageView.center = CGPoint(x: view.frame.width / 2, y: 2.5 * view.frame.height / 10)
-//    mdbImageView.image = UIImage(named: "mdblogo")
-//    mdbImageView.contentMode = .scaleAspectFit
-//    self.view.addSubview(mdbImageView)
-    
-    func displayReturnButton()
-    {
+    func displayReturnButton() {
         returnButton = UIButton(type: .custom)
         returnButton = UIButton(frame: CGRect(x: 10, y: 30, width: 40, height: 40))
         returnButton.setImage(UIImage(named: "backIcon"), for: .normal)

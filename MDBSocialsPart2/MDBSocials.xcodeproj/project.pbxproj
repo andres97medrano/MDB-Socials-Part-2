@@ -18,12 +18,13 @@
 		25230CD52156F57D00E52FBC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25230CD42156F57D00E52FBC /* DetailViewController.swift */; };
 		25230CD82156FCBF00E52FBC /* LoginVC-Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25230CD72156FCBF00E52FBC /* LoginVC-Setup.swift */; };
 		25230CDA2156FCDE00E52FBC /* SignUpVC-Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25230CD92156FCDE00E52FBC /* SignUpVC-Setup.swift */; };
-		25230CE0215718AC00E52FBC /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25230CDF215718AC00E52FBC /* CustomNavigationController.swift */; };
 		25230CE22157242200E52FBC /* FeedVC-Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25230CE12157242200E52FBC /* FeedVC-Setup.swift */; };
 		25230CEC215807B600E52FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25230CEB215807B600E52FBC /* Main.storyboard */; };
 		25230CEE215807FC00E52FBC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25230CED215807FC00E52FBC /* MainViewController.swift */; };
 		25230CF02158085400E52FBC /* MainVC-Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25230CEF2158085400E52FBC /* MainVC-Setup.swift */; };
 		2585DF01215FCC1F0073D6CC /* NewSocialVC-Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2585DF00215FCC1F0073D6CC /* NewSocialVC-Setup.swift */; };
+		259E47CC2168522D001DEEF6 /* SocialsUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259E47CB2168522D001DEEF6 /* SocialsUser.swift */; };
+		259E47CE21685237001DEEF6 /* Social.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259E47CD21685237001DEEF6 /* Social.swift */; };
 		25A4EF9021558F8A00A63DC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A4EF8F21558F8A00A63DC1 /* AppDelegate.swift */; };
 		25A4EF9221558F8A00A63DC1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A4EF9121558F8A00A63DC1 /* LoginViewController.swift */; };
 		25A4EF9721558F8C00A63DC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25A4EF9621558F8C00A63DC1 /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 		25A4EFA521558F8D00A63DC1 /* MDBSocialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A4EFA421558F8D00A63DC1 /* MDBSocialsTests.swift */; };
 		25A4EFB021558F8D00A63DC1 /* MDBSocialsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A4EFAF21558F8D00A63DC1 /* MDBSocialsUITests.swift */; };
 		25A4EFBE2155978F00A63DC1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25A4EFBD2155978F00A63DC1 /* GoogleService-Info.plist */; };
+		25D6DDEA216710EC00222B1F /* FirebaseAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D6DDE9216710EC00222B1F /* FirebaseAPIClient.swift */; };
 		5D10DC9102CBB2974C442DC1 /* Pods_MDBSocialsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6DC8B4C3D4E9AC37E6FDE1 /* Pods_MDBSocialsTests.framework */; };
 		7B2DCAD7682F76F1437C1B9E /* Pods_MDBSocials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850BABA20254D1AD0BEA1FE4 /* Pods_MDBSocials.framework */; };
 /* End PBXBuildFile section */
@@ -63,12 +65,13 @@
 		25230CD42156F57D00E52FBC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		25230CD72156FCBF00E52FBC /* LoginVC-Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginVC-Setup.swift"; sourceTree = "<group>"; };
 		25230CD92156FCDE00E52FBC /* SignUpVC-Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignUpVC-Setup.swift"; sourceTree = "<group>"; };
-		25230CDF215718AC00E52FBC /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 		25230CE12157242200E52FBC /* FeedVC-Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedVC-Setup.swift"; sourceTree = "<group>"; };
 		25230CEB215807B600E52FBC /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		25230CED215807FC00E52FBC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		25230CEF2158085400E52FBC /* MainVC-Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainVC-Setup.swift"; sourceTree = "<group>"; };
 		2585DF00215FCC1F0073D6CC /* NewSocialVC-Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewSocialVC-Setup.swift"; sourceTree = "<group>"; };
+		259E47CB2168522D001DEEF6 /* SocialsUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialsUser.swift; sourceTree = "<group>"; };
+		259E47CD21685237001DEEF6 /* Social.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social.swift; sourceTree = "<group>"; };
 		25A4EF8C21558F8A00A63DC1 /* MDBSocials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDBSocials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25A4EF8F21558F8A00A63DC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25A4EF9121558F8A00A63DC1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +85,7 @@
 		25A4EFAF21558F8D00A63DC1 /* MDBSocialsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDBSocialsUITests.swift; sourceTree = "<group>"; };
 		25A4EFB121558F8D00A63DC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25A4EFBD2155978F00A63DC1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		25D6DDE9216710EC00222B1F /* FirebaseAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAPIClient.swift; sourceTree = "<group>"; };
 		44A4E3E8EF60DA8342371DB3 /* Pods_MDBSocialsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDBSocialsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6DC8B4C3D4E9AC37E6FDE1 /* Pods_MDBSocialsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDBSocialsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53B9E3E2943210E0CCE07FE1 /* Pods-MDBSocialsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDBSocialsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDBSocialsUITests/Pods-MDBSocialsUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -191,6 +195,8 @@
 		25230CC82156F3D500E52FBC /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				259E47CB2168522D001DEEF6 /* SocialsUser.swift */,
+				259E47CD21685237001DEEF6 /* Social.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -200,7 +206,6 @@
 			children = (
 				252290A0215DDAB400666051 /* FeedTableViewCell.swift */,
 				252290AA215F33C600666051 /* RoundedWhiteButton.swift */,
-				25230CDF215718AC00E52FBC /* CustomNavigationController.swift */,
 				252290A8215F320300666051 /* UIHelperExtension.swift */,
 			);
 			path = Views;
@@ -254,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				25A4EF8F21558F8A00A63DC1 /* AppDelegate.swift */,
+				25D6DDE82167107300222B1F /* Client */,
 				25230CC82156F3D500E52FBC /* Models */,
 				25230CC92156F3F600E52FBC /* Views */,
 				25230CCA2156F3FD00E52FBC /* Controllers */,
@@ -281,6 +287,14 @@
 				25A4EFB121558F8D00A63DC1 /* Info.plist */,
 			);
 			path = MDBSocialsUITests;
+			sourceTree = "<group>";
+		};
+		25D6DDE82167107300222B1F /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				25D6DDE9216710EC00222B1F /* FirebaseAPIClient.swift */,
+			);
+			path = Client;
 			sourceTree = "<group>";
 		};
 		C0C9C87EB161D583D593589C /* Frameworks */ = {
@@ -512,12 +526,13 @@
 			files = (
 				25230CCF2156F50C00E52FBC /* SignUpViewController.swift in Sources */,
 				252290A9215F320300666051 /* UIHelperExtension.swift in Sources */,
+				259E47CE21685237001DEEF6 /* Social.swift in Sources */,
 				25230CEE215807FC00E52FBC /* MainViewController.swift in Sources */,
 				25230CD32156F55E00E52FBC /* NewSocialViewController.swift in Sources */,
 				25230CE22157242200E52FBC /* FeedVC-Setup.swift in Sources */,
 				25A4EF9221558F8A00A63DC1 /* LoginViewController.swift in Sources */,
+				25D6DDEA216710EC00222B1F /* FirebaseAPIClient.swift in Sources */,
 				252290A1215DDAB400666051 /* FeedTableViewCell.swift in Sources */,
-				25230CE0215718AC00E52FBC /* CustomNavigationController.swift in Sources */,
 				25230CD52156F57D00E52FBC /* DetailViewController.swift in Sources */,
 				252290AD215F710F00666051 /* DetailVC-Setup.swift in Sources */,
 				25230CDA2156FCDE00E52FBC /* SignUpVC-Setup.swift in Sources */,
@@ -527,6 +542,7 @@
 				25230CF02158085400E52FBC /* MainVC-Setup.swift in Sources */,
 				25230CD82156FCBF00E52FBC /* LoginVC-Setup.swift in Sources */,
 				25A4EF9021558F8A00A63DC1 /* AppDelegate.swift in Sources */,
+				259E47CC2168522D001DEEF6 /* SocialsUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

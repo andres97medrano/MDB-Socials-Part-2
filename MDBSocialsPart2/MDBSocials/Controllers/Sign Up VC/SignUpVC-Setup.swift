@@ -108,9 +108,7 @@ extension SignUpViewController : UITextFieldDelegate
         
     }
     
-    func addFieldListeners()
-    {
-        
+    func addFieldListeners() {
         fullnameTextField.delegate = self
         emailTextField.delegate = self
         usernameTextField.delegate = self
@@ -120,7 +118,6 @@ extension SignUpViewController : UITextFieldDelegate
         emailTextField.addTarget(self, action: #selector(textFieldChanged), for: .editingChanged)
         usernameTextField.addTarget(self, action: #selector(textFieldChanged), for: .editingChanged)
         passwordTextField.addTarget(self, action: #selector(textFieldChanged), for: .editingChanged)
-        
     }
 
     

@@ -10,8 +10,7 @@ import UIKit
 
 extension MainViewController
 {
-    func displayMDBLogo()
-    {
+    func displayMDBLogo() {
         mdbImageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 175, height: 175))
         mdbImageView.center = CGPoint(x: view.frame.width / 2, y: 2.5 * view.frame.height / 10)
         mdbImageView.image = UIImage(named: "mdblogo")
@@ -19,9 +18,7 @@ extension MainViewController
         self.view.addSubview(mdbImageView)
     }
     
-    func displaySubtitle()
-    {
-        // LOG IN SUBTITLE
+    func displaySubtitle() {
         mdbSocialsLabel = UILabel(frame: CGRect(x: 0, y: 3 * view.frame.height / 10 , width: view.frame.width, height: 50))
         mdbSocialsLabel.textAlignment = .center
         mdbSocialsLabel.text = "SOCIALS"
@@ -30,9 +27,7 @@ extension MainViewController
         self.view.addSubview(mdbSocialsLabel)
     }
     
-    func displayLoginButton()
-    {
-        
+    func displayLoginButton() {
         loginButton = RoundedWhiteButton(frame: CGRect(x: view.center.x / 2, y: 6.5 * view.frame.height / 10, width: 200, height: 50))
         loginButton.setTitleColor(secondaryColor, for: .normal)
         loginButton.setTitle("Log In", for: .normal)
@@ -45,9 +40,7 @@ extension MainViewController
         setLoginButton(enabled: true)
     }
     
-    func displaySignupButton()
-    {
-
+    func displaySignupButton() {
         signupButton = RoundedWhiteButton(frame: CGRect(x: view.center.x / 2, y: 7.5 * view.frame.height / 10, width: 200, height: 50))
         signupButton.setTitleColor(secondaryColor, for: .normal)
         signupButton.setTitle("Sign Up", for: .normal)

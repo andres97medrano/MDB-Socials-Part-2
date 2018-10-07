@@ -93,15 +93,25 @@ extension NewSocialViewController {
         
         postButton = RoundedWhiteButton(frame: CGRect(x: view.center.x / 2, y: 19 * view.frame.height / 25, width: 200, height: 50))
         postButton.setTitleColor(secondaryColor, for: .normal)
-        postButton.setTitle("Sign Up", for: .normal)
+        postButton.setTitle("Create Event", for: .normal)
         postButton.titleLabel?.font = UIFont.systemFont(ofSize: 18.0, weight: UIFont.Weight.bold)
         postButton.highlightedColor = UIColor(white: 1.0, alpha: 1.0)
         postButton.defaultColor = UIColor.white
         postButton.addTarget(self, action: #selector(postButtonPressed), for: .touchUpInside)
         postButton.alpha = 0.5
         view.addSubview(postButton)
-        // setSignupButton(enabled: true)
+        setCreateEventButton(enabled: true)
         
+    }
+    
+    func setCreateEventButton(enabled:Bool) {
+        if enabled {
+            postButton.alpha = 1.0
+            postButton.isEnabled = true
+        } else {
+            postButton.alpha = 0.5
+            postButton.isEnabled = false
+        }
     }
     
 }

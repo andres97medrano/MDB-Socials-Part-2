@@ -73,9 +73,8 @@ class SignUpViewController: UIViewController
                 self.displayAlert(title: "Error", message: String(describing: error?.localizedDescription))
             }
         }
-        self.dismiss(animated: false, completion: nil)
 
-        }
+    }
     
 //    @objc func keyboardWillAppear(notification: NSNotification){
 //        

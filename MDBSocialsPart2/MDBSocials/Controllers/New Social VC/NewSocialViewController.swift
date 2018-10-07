@@ -56,6 +56,16 @@ class NewSocialViewController: UIViewController {
         // make sure to store in fb storage
     }
     
+    @objc func textFieldChanged(_ target:UITextField) {
+        let eventName = eventNameTextField.text
+        let eventDescription = descriptionTextField.text
+        let eventDate = dateTextField.text
+        let eventTime = timeTextField.text
+        
+        let formFilled = eventName != nil && eventName != "" && eventDescription != nil && eventDescription != "" && eventDate != nil && eventDate != "" && eventTime != nil && eventTime != ""
+        setCreateEventButton(enabled: formFilled)
+    }
+    
     override var preferredStatusBarStyle: UIStatusBarStyle {
         get {
             return .lightContent
